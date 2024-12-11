@@ -1,0 +1,239 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/Header.css">
+    <link rel="stylesheet" href="css/last.css">
+</head>
+
+<header>
+    <a id="logo" href="main.html"><img src="png/logo-removebg-preview.png" alt="" width="160"
+        height="auto"></a>
+    <nav>
+        <!-- <span class="test_a">
+            <a href="https://naver.me/GipCkt61" target="_blank" >다문화 가정 자녀의 현황</a>
+            </span>
+       <span class="test_b">
+        <a href="https://naver.me/GipCkt61" target="_blank" >설문조사 결과</a>
+        </span>
+
+       <span class="test_c">
+        <a href="https://naver.me/GipCkt61" target="_blank" >설문조사</a>
+        </span>
+       <span class="test_d">
+        <a href="https://naver.me/GipCkt61" target="_blank" >설문조사</a>
+        </span> -->
+
+        <div class="menu">
+            <button class="but" onclick="toggleMenu()">
+                <img src="png/menu (1).png" class="im" alt="Menu Icon">
+            </button>
+        </div>
+        
+        <div id="side-menu" class="side-menu">
+            <!-- <a href="javascript:void(0)" class="close-btn" onclick="toggleMenu()">&times;</a> -->
+            <a href="test_result.html" class="avc">인터뷰 및 설문조사 결과</a>
+            <a href="mid.html" class="avc">해외-국가별 현황</a>
+            <a href="last.html" class="avc">다문화 가정 자녀를 대상 과외 멘토링</a>
+            <a href="https://forms.gle/wrDyZZrCzJA3scAc8"target="_blank" class="avc">문의사항</a>
+        </div>
+        
+        <script>
+            function toggleMenu() {
+                const sideMenu = document.getElementById('side-menu');
+                sideMenu.classList.toggle('open');
+            }
+        </script>
+       <!-- <div class="search-container">
+        <input type="text"  class="search-input">
+        <button class="search-button">검색</button>
+        </div> -->
+
+        
+
+    </nav>
+</header>
+<body>
+    <div class="main_div">
+        <div class="side_div">
+            <h2>다문화 가정 자녀를 대상 과외 멘토링</h2>
+            <ul class="list">
+                <li onclick="openContainer('name1')">
+                    박수현님 
+                </li>
+                <li onclick="openContainer('name2')">
+                    조한결님
+                </li>
+            </ul>
+        </div>
+
+        <!-- Добавляем правый контейнер -->
+        <div class="right_div" id="right_div">
+            <div id="name1" class="content" style="display: none;">
+                <h2>멘토링 프로그램</h2>
+                <p><strong>기간:</strong> 2024년 10월 ~ 11월</p>
+                <p><strong>진행 일정:</strong></p>
+                <ul>
+                  <li>요일: 매주 화요일</li>
+                  <li>시간: 13:00 ~ 15:00 (날마다 상이)</li>
+                </ul>
+                <p><strong>과목:</strong> 수학, 영어, 과학</p>
+              
+                <h3>1. 멘토링 목표</h3>
+                <p>초등학교 5학년 수준의 교과 내용을 중심으로 학업 성취도를 높이고, 다문화 가정 멘티들의 학습 환경 적응을 지원함. 주요 목표는 다음과 같음:</p>
+                <ul>
+                  <li>교과서 중심의 학습 보충 및 핵심 개념 이해</li>
+                  <li>멘티들이 스스로 질문하고 학습 계획을 세우는 습관 형성</li>
+                  <li>언어적 장벽 완화를 통해 교과 내용 이해를 돕고 자신감을 심어줌</li>
+                </ul>
+              
+                <h3>2. 멘토링 진행 방식</h3>
+                <h4>1) 수업 준비</h4>
+                <ul>
+                  <li>초등학교 5학년이 사용하는 교과서와 보조교재를 활용해 학습 자료를 제작함.</li>
+                  <li>시각적 자료와 간단한 예시를 통해 설명을 강화함.</li>
+                </ul>
+              
+                <h4>2) 수업 진행</h4>
+                <ul>
+                  <li>매 수업 시작 시 지난 학습 내용 복습과 퀴즈를 통해 학습 상태를 점검.</li>
+                  <li>각 과목의 핵심 주제를 중심으로 학습하고 관련 문제를 함께 풀이.</li>
+                  <li><strong>과목별 세부 진행 방식:</strong>
+                    <ul>
+                      <li><strong>수학:</strong> 소수와 분수, 약수와 배수, 기본 도형 학습</li>
+                      <li><strong>영어:</strong> 기초 어휘, 문장 읽기 연습, 기본 문법 학습</li>
+                      <li><strong>과학:</strong> 계절 변화, 물질의 상태, 생활 속 과학 원리 탐구</li>
+                    </ul>
+                  </li>
+                </ul>
+              
+                <h4>3) 과제 및 복습</h4>
+                <ul>
+                  <li>학습한 내용을 바탕으로 간단한 복습 과제를 제공하고, 매주 과제 수행도를 확인함.</li>
+                  <li>어려움을 느낀 과제를 중심으로 추가 설명과 학습을 진행함.</li>
+                </ul>
+              
+                <h3>3. 멘티 성과 분석 및 관찰 내용</h3>
+                <h4>1) 공통 사항:</h4>
+                <ul>
+                  <li>멘티들은 적극적인 태도로 수업에 임하며 학습 자신감을 보임.</li>
+                  <li>학습 활동에서 언어적 배경을 고려한 설명과 자료가 큰 도움을 줌.</li>
+                </ul>
+              
+                <h4>2) 과목별 관찰:</h4>
+                <ul>
+                  <li><strong>수학:</strong> 분수와 소수의 계산 능력이 크게 향상되었으며, 도형 학습에 대한 흥미 증가.</li>
+                  <li><strong>영어:</strong> 간단한 영어 문장을 읽고 해석하며, 자주 사용하는 표현을 익히는 데 진전이 있었음.</li>
+                  <li><strong>과학:</strong> 계절 변화와 물질 상태 변화와 같은 일상적인 주제에 흥미를 느끼고 적극적으로 질문함.</li>
+                </ul>
+              
+                <h3>4. 성과 및 피드백</h3>
+                <h4>1) 성과:</h4>
+                <ul>
+                  <li>멘티들이 수업에 꾸준히 참여해, 과제를 수행하는 태도와 능력이 향상됨.</li>
+                  <li>다문화 가정 멘티들의 언어적 어려움을 극복하는 데 효과적인 자료와 접근 방식을 확인함.</li>
+                </ul>
+              
+                <h4>2) 피드백:</h4>
+                <ul>
+                  <li>수학과 과학에서 더 많은 실생활 사례와 놀이형 학습을 추가했으면 좋겠다는 의견.</li>
+                  <li>영어 수업에서 그림책과 동화 같은 친숙한 자료 활용 필요.</li>
+                </ul>
+            </div>
+            <div id="name2" class="content" style="display: none;">
+                <h2>멘토링 프로그램</h2>
+                <p><strong>기간:</strong> 2024년 11월 ~ 12월</p>
+                <p><strong>진행 일정:</strong></p>
+                <ul>
+                <li>요일: 매주 금요일</li>
+                <li>시간: 12:00 ~ 14:00 (날마다 상이)</li>
+                </ul>
+                <p><strong>과목:</strong> 영어, 국어</p>
+
+                <h3>1. 멘토링 목표</h3>
+                <p>중학교 2학년 수준의 교과 과정을 가르치면서 다문화 가정 자녀들의 학습 성취도를 높이고자 함. 주요 목표는 다음과 같음:</p>
+                <ul>
+                <li>학교 수업에서 잘 따라가지 못한 부분들을 채워주고자 함</li>
+                <li>자기주도 학습의 습관을 가르쳐주고 자기주도 학습 능력을 기르고자 함</li>
+                </ul>
+
+                <h3>2. 멘토링 진행 방식</h3>
+                <h4>1) 수업 준비</h4>
+                <ul>
+                <li>중학교 2학년 교과서와 시중에 나와 있는 보조교재를 수업에 활용함</li>
+                <li>미리 모르는 부분들을 받아 적절한 예시를 들면서 이해도를 높임</li>
+                </ul>
+
+                <h4>2) 수업 진행</h4>
+                <ul>
+                <li>수업 시작 전, 전 수업 때 학생이 취약한 부분들을 퀴즈 형식으로 복습</li>
+                <li>학생이 유독 어려워하는 부분을 집중적으로 가르침</li>
+                <li><strong>과목별 세부 진행 방식:</strong>
+                    <ul>
+                    <li><strong>영어:</strong> 교과서 지문 해석 및 독해 (+ 기본 문법)</li>
+                    <li><strong>국어:</strong> 교과서 지문 분석 및 의도</li>
+                    </ul>
+                </li>
+                </ul>
+
+                <h4>3) 과제 및 복습</h4>
+                <ul>
+                <li>영어의 경우, 교과서 지문에 나오는 어휘들을 시험을 봄</li>
+                <li>숙제를 부여하여 자기주도 학습 능력을 기르고자 함</li>
+                <li>숙제를 진행하면서 모르겠는 부분은 수업 시간에 다시 설명</li>
+                </ul>
+
+                <h3>3. 멘티 성과 분석 및 관찰 내용</h3>
+                <h4>1) 공통 사항:</h4>
+                <ul>
+                <li>멘티들은 적극적인 태도로 수업에 임하며 학습 자신감을 보임</li>
+                <li>학습 활동에서 언어적 배경을 고려한 설명과 자료가 큰 도움을 줌</li>
+                </ul>
+
+                <h4>2) 과목별 관찰:</h4>
+                <ul>
+                <li><strong>국어:</strong> 교과서에 나오는 문학작품들을 보면 이 문장이 어떤 의미인지, 시에서 이 단어가 어떤 의미를 내포하고 있는지 하나도 몰랐었는데, 이번 멘토링을 통해서 다양한 문학작품들을 해석할 수 있게 됨</li>
+                <li><strong>영어:</strong> 멘토링 전에는 간단한 문장조차 해석하기 버거워했는데, 멘토링 후에는 간단한 문장을 해석하고 자신감을 보임</li>
+                </ul>
+
+                <h3>4. 성과 및 피드백</h3>
+                <h4>1) 성과:</h4>
+                <ul>
+                <li>멘티들이 수업에 꾸준히 참여해, 과제를 수행하는 태도와 능력이 향상됨</li>
+                <li>멘티들이 과제를 잘 수행하여 자기주도 학습 능력이 향상되었고, 학교 수업에 잘 따라갈 수 있게 됨</li>
+                </ul>
+
+                <h4>2) 피드백:</h4>
+                <ul>
+                <li>국어의 경우, 한국어가 어색한 멘티들이 있어 정말 기초적인 부분부터 차근차근 알려줬으면 좋겠다는 의견이 있었음. 이를 수용하여 수업을 진행할 때 어려운 어휘의 뜻을 미리 찾아가 설명을 했음</li>
+                </ul>
+
+                <h3>5. 결론 및 향후 계획</h3>
+                <ul>
+                <li>이번 멘토링 활동을 통해 멘티들이 교과 내용 이해와 학습 자신감을 키우는 데 긍정적인 영향을 미쳤음</li>
+                <li>앞으로 멘티들의 의견을 반영하여 더욱 다양하고 흥미로운 학습 자료와 활동을 제공할 예정임</li>
+                <li>다문화 가정 멘티들의 언어적 특성과 학습 배경을 고려한 맞춤형 접근을 지속적으로 강화할 계획임</li>
+                </ul>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        function openContainer(country) {
+            // Скрыть все контейнеры
+            let contents = document.querySelectorAll('.content');
+            contents.forEach(function(content) {
+                content.style.display = 'none';
+            });
+
+            // Показать выбранный контейнер
+            let selectedContent = document.getElementById(country);
+            if (selectedContent) {
+                selectedContent.style.display = 'block';
+            }
+        }
+    </script>
+</body>
+</html>

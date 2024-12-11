@@ -1,0 +1,189 @@
+/* Убираем отступы */
+html,body {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center; /* Горизонтальное центрирование */
+    align-items: center; /* Вертикальное центрирование */
+    height: 100vh; /* Высота body равна высоте экрана */
+    width: 100%;
+    background-color: rgba(247, 247, 247, 0.836);
+    position: relative; 
+}
+
+.image-container {
+     /* Отступ, равный высоте header */
+    width: 100%;
+    margin-top: -25%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* height: calc(100vh - 10%); Высота экрана минус высота header */
+    background-color: #01AAD1; /* Синий фон */
+    z-index: 0;
+    opacity: 86%;
+    border-radius: 20px;
+}
+
+.content-image {
+    width: 35%;
+    margin-left: 36%;
+    max-width: 100%; /* Изображение занимает не более 80% ширины экрана */
+    max-height: 100%; /* Изображение занимает всю доступную высоту контейнера */
+    object-fit: cover; /* Обрезка изображения при необходимости */
+}
+
+body .main_div{
+    margin-top: 3%;
+    position: absolute; /* Абсолютное позиционирование поверх изображения */
+    top: 0; /* Расположение в верхней части экрана */
+    left: 0; /* Расположение по левому краю */
+    width: 100%; /* Занимает всю ширину экрана */
+    color: black; /* Белый текст для контраста */
+    text-align: center; /* Центрирование текста */
+    padding: 50px 0; /* Отступы сверху и снизу */
+    font-size: 1.2rem; /* Размер текста */
+    z-index: 50; /* Убедимся, что блок выше изображения */
+}
+
+.div_test{
+    background: rgb(255, 255, 255);
+    border-radius: 10px;
+    box-shadow: 0 4px 15px rgba(36, 255, 189, 0.315); 
+    padding: 20px;
+    width: 45%;
+    height: auto;
+    margin-left: 0.5%;
+    line-height: 1.6;
+    color:black;
+    
+}
+
+#under {
+    padding: 5px;
+    position: fixed;
+    margin-top: 23%;
+    margin-left: 93%;
+    width: 5%;
+    height: auto;
+    text-align: center; /* Центрируем текст под изображением */
+    border-radius: 80%;
+    background-color: white;
+    border: 1px solid whitesmoke;
+}
+
+.image-text-container {
+    position: relative;
+    display: inline-block;
+    width: 100%; /* Ширина контейнера равна ширине родителя */
+}
+
+#under img {
+    width: 60%; /* Изображение растягивается на весь контейнер */
+    height: auto; /* Автоматическая высота изображения */
+    object-fit: cover;
+}
+
+.under-text {
+    display: block;
+    margin-top: 1px;
+    font-size: 14px; /* Размер шрифта */
+    color: black; /* Цвет текста */
+    text-align: center; /* Центрируем текст */
+}
+
+
+.cont_a{
+    width: 35%;
+    height: 396px;
+    border-radius: 10px;
+    box-shadow: 0 3px 3px rgba(96, 133, 255, 0.486); 
+    border: 1px solid black;
+    position: absolute;
+    margin-left: 10%;
+    margin-top: 6%;
+    background-color: white;
+    text-align: left;
+}
+
+.cont_b {
+    background-color: white;
+    width: 35%;
+    height: 396px;
+    border-radius: 10px;
+    box-shadow: 0 3px 3px rgba(96, 133, 255, 0.486); 
+    border: 1px solid black;
+    position: absolute;
+    margin-left: 50.5%;
+    margin-top: 6%;
+   
+
+}
+.section{
+    font-size: 19px;
+    margin-top: 20px;
+    margin-left: 10px;
+    border-radius: 10px;
+    width: 650px;
+    text-align: left;
+}
+.section p{
+    padding-top: 5px;
+    border-radius: 5px;
+    text-align: left;
+    box-shadow: 0 0 1px rgba(211, 219, 245, 0.226); 
+    border-bottom: 1px solid rgba(0, 0, 0, 0.123);
+}
+.h_2{
+    text-align: left;
+    margin-top: 5px;
+    margin-left: 8px;
+}
+#moreContentBtn {
+    display: block;
+    margin: -355px auto auto 86%;
+    padding: 5px 10px;
+    background-color: #007BFF;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+#moreContent {
+    display: none;
+    padding-top: 50%;
+}
+
+.news-section {
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  }
+  .news-section h2 {
+    color: #333;
+    font-size: 1.5rem;
+    margin-bottom: 15px;
+  }
+  .news-list {
+    list-style-type: none;
+    padding: 0;
+  }
+  .news-list li {
+    margin-bottom: 15px;
+    border-bottom: 1px solid #ddd;
+    padding-bottom: 10px;
+  }
+  .news-list a {
+    color: #007BFF;
+    text-decoration: none;
+    font-weight: bold;
+  }
+  .news-list a:hover {
+    text-decoration: underline;
+  }
+  .news-list p {
+    color: #555;
+    font-size: 0.9rem;
+    margin: 5px 0 0;
+  }
