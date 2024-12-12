@@ -1,0 +1,75 @@
+html,body {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center; /* Горизонтальное центрирование */
+    align-items: center; /* Вертикальное центрирование */
+    height: 100vh; /* Высота body равна высоте экрана */
+    width: 100%;
+    background-color: rgba(247, 247, 247, 0.836);
+    position: relative; 
+}
+/* Стили для главного контейнера */
+
+    .main_div {
+        width: 100%;
+        display: flex;
+        justify-content: flex-start;
+        align-items: flex-start;
+    }
+
+    /* Стили для бокового контейнера */
+    .side_div {
+        margin-left: 3%;
+        margin-top: 6%;
+        width: 15%;
+        height: 800px;
+        background-color: white;
+        color: black;
+        padding: 20px;
+        box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+        text-align: center;
+    }
+    .side_div h2{
+        margin-left: 20px;
+        width: 250px;
+        border-bottom: 1px solid black;
+        box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    }
+
+    .side_div .list {
+        list-style: none;
+        padding: 0;
+        margin: 10px 0 0 0;
+    }
+
+    .side_div .list li {
+        color: black;
+        padding: 10px;
+        margin: 40px 0;
+        border-bottom: 1px solid black;
+        box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+        cursor: pointer;
+        transition: 0.3s;
+    }
+
+    .side_div .list li:hover {
+        background-color: #00690985;
+        color: white;
+    }
+
+    /* Правый контейнер */
+    .right_div {
+        margin-left: 3%;
+        margin-top: 6%;
+        width: 75%; /* Это пространство, в котором будут открываться контейнеры */
+        background-color: white; /* Светлый фон для правого блока */
+        padding: 20px;
+        height: 800px; /* Размер правого контейнера */
+        box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+    }
+
+    /* Контент внутри правого контейнера */
+    .content {
+        display: none; /* Изначально скрыто */
+    }
